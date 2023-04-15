@@ -1,0 +1,61 @@
+.App {
+  padding: 50px;
+}
+
+.monthBox {
+  width: 400px;
+  text-align: center;
+}
+
+input {
+  height: 22px;
+  width: 120px;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+th {
+  padding: 2px;
+  background-color: yellow;
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+#msgBox {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 110px;
+  padding: 5px 10px 5px 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: green;
+}
